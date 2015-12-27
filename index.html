@@ -3,5 +3,5 @@
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js" type="text/javascript"></script><script type="text/javascript">
 var bgmusic = new Array('media/B2K_SantaHookedMeUp.mp3', 'media/BSB_ItsChristmasTimeAgain.mp3', 'media/Jackson5.mp3', 'media/NSYNC_MerryChristmas.mp3', 'media/SexyBoyChristmas.mp3');
 var b = Math.floor(Math.random() * bgmusic.length);
-document.querySelector(".bgmusic").play();
+document.querySelector("audio").src = bgmusic[b];
 </script></body></html>
